@@ -40,21 +40,18 @@ Every question has signal words that point to the answer.
 - "None of the above" — risky, usually avoid unless you're certain
 - Options with numbers/statistics — verify the number matches what you know
 
-### 1.3 Probability Guessing (概率猜测)
+### 1.3 Smart Guessing (智能猜测)
 
 When you genuinely don't know the answer, maximize your odds.
 
-**Statistical patterns:**
-- In 4-option questions, "B" and "C" are slightly more common as correct answers
-- "All of the above" is correct ~60-70% of the time when it appears
-- If you've been picking the same letter for 3+ consecutive questions, switch
-- The answer to question N is rarely the same as question N-1
-
-**Intelligent guessing:**
+**Evidence-based strategies:**
+- "All of the above" is correct ~60-70% of the time when it appears (this is the best-documented pattern)
 - Pick the option you've seen most often in your (limited) study
 - Pick the option that "sounds like a textbook" — formal language signals correctness
 - If one option is significantly different from the other three in structure/length, it's often the answer
 - When truly stuck between two options, go with your first instinct
+
+**⚠️ Important caveat:** The old advice that "B and C are more often correct" is NOT reliably true across different exams. Don't rely on letter-position patterns — they vary by exam and can change between test versions. Instead, focus on content-based elimination.
 
 ### 1.4 Option Comparison (选项对比)
 
@@ -65,6 +62,15 @@ Don't evaluate each option in isolation — compare them to each other.
 2. First decide which group is correct
 3. Then narrow within the group
 4. This reduces a 4-choice problem to two 2-choice problems
+
+### 1.5 The "Two-Pass Mark" System (两轮标记法)
+
+On your first pass through the exam:
+- **No mark** = confident answer
+- **? mark** = narrowed to 2 options, need to revisit
+- **?? mark** = no idea at all
+
+This helps you allocate your second-pass time efficiently — spend it on ? marks first (50% chance) before ?? marks (25% chance).
 
 ---
 
@@ -97,6 +103,9 @@ For common question types, use pre-built answer templates.
 **"Analyze and evaluate" template:**
 > [Topic] has both advantages and disadvantages. On one hand, [advantage 1] and [advantage 2]. On the other hand, [disadvantage 1] and [disadvantage 2]. Overall, [balanced judgment with reasoning].
 
+**"Cause and effect" template (新增):**
+> The fundamental cause of [phenomenon] is [root cause]. This leads to [direct effect 1], which in turn causes [secondary effect 2]. The ultimate result is [final outcome].
+
 ### 2.3 Partial Credit Strategy (分步得分)
 
 Even if you don't know the complete answer, maximize partial credit.
@@ -107,6 +116,16 @@ Even if you don't know the complete answer, maximize partial credit.
 - Use "buzzwords" from the course material
 - If the question has multiple parts, answer each part separately
 - Write more rather than less — graders look for correct points, not penalize wrong ones (usually)
+- **Number your points** — makes it easier for graders to find your keywords
+
+### 2.4 The "Brain Dump" Opening (开场倾倒法)
+
+When you see a question and your mind goes blank:
+
+1. Write down EVERYTHING you remember about the topic — unstructured, stream of consciousness
+2. Look at what you wrote — keywords and connections will emerge
+3. Organize the raw material into a structured answer
+4. This works because recall is associative — writing one thing triggers another
 
 ---
 
@@ -144,6 +163,15 @@ Don't just re-read your answers — actively verify.
 4. For code: trace through with a sample input
 5. For essays: scan for the keywords you intended to include
 
+### 3.4 The "Save State" Rule (存档法则)
+
+For computer-based practical exams:
+
+- **Save early, save often** — don't lose work to crashes
+- **Before any risky operation**, note what you're about to do so you can undo
+- **If the exam allows multiple attempts** on a question, attempt it twice with different approaches rather than spending all your time perfecting one
+- **Test incrementally** — don't build the whole thing then test; test each piece as you go
+
 ---
 
 ## 4. Time Management
@@ -176,6 +204,15 @@ For a standard exam with N questions and T minutes:
 | 50 questions | 90 min | 1.8 min | 1 min | 3 min |
 | 100 questions | 120 min | 1.2 min | 0.5 min | 2 min |
 | 30 questions | 60 min | 2 min | 1 min | 4 min |
+
+**中国考试补充：**
+
+| 考试 | 题量 | 时间 | 每题时间 | 策略 |
+|-----|------|------|---------|------|
+| 公考行测 | 130-135题 | 120min | ~0.9min | 必须放弃10-15题 |
+| 四六级阅读 | 30题 | 40min | ~1.3min | 先题干后文章 |
+| 考研政治 | 38题(客观) | 180min(含主观) | ~2min | 选择题控制在60min内 |
+| CPA单科 | ~50题 | 150min | ~3min | 客观题40min，主观题110min |
 
 ### 4.3 The "Panic Reset" (紧急重置)
 
@@ -235,3 +272,13 @@ When you're running out of time and still have many unanswered questions.
 **When to change:** Only when you find a clear, logical reason (e.g., you misread the question, you found new information in another question).
 
 **When NOT to change:** When you're just feeling uncertain or second-guessing yourself.
+
+### 5.4 The "Low Bar" Mindset (底线心态)
+
+For cram-style preparation:
+
+1. **Define your minimum passing score** — e.g., "I need 60/100"
+2. **Calculate: how many questions can I afford to get wrong?** — e.g., "40 out of 100"
+3. **This means: I can skip/be wrong on 40% and still pass**
+4. **Frame every question as: "Is this in my 60% or my 40%?"**
+5. This reframing dramatically reduces anxiety — wrong answers are BUILT INTO your strategy

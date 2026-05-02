@@ -146,14 +146,62 @@ Use when: exam is in 15-30 days, want higher confidence.
 
 ---
 
+## Minimal Viable Plan (最小可行方案) 🆕
+
+Use when: working full-time, only 1-2 hours per day available.
+
+### Core Principle
+
+**You can't cover everything. Accept it. Focus on maximum ROI activities.**
+
+### Daily Time Budget: 1-2 Hours
+
+| Time | Activity | Why |
+|------|---------|-----|
+| First 15 min | Review yesterday's cheat sheet / error notes | Spaced repetition lock-in |
+| Next 45-60 min | Study ONE high-frequency topic | Depth on what matters most |
+| Last 15-30 min | Do 5-10 practice questions on today's topic | Active recall > passive reading |
+
+### Weekly Rhythm (7-Day Cycle)
+
+| Day | Focus (1-2 hours) |
+|-----|-------------------|
+| Mon | Study Topic 1 + practice |
+| Tue | Study Topic 2 + practice |
+| Wed | Study Topic 3 + practice |
+| Thu | Review Mon-Wed errors + practice |
+| Fri | Study Topic 4 + practice |
+| Sat | 1 timed practice exam (use 2-3 hours if you can) |
+| Sun | Error analysis + cheat sheet update |
+
+### Weekend Power Block
+
+If you can carve out 3-4 hours on weekends:
+- **Block 1 (90 min):** Full timed practice exam
+- **Block 2 (30 min):** Error analysis
+- **Block 3 (60 min):** Targeted study on weakest areas
+- **Block 4 (30 min):** Cheat sheet update
+
+### Special Rules for Working Professionals
+
+1. **Commute time = audio review** — record yourself reading the cheat sheet, listen during commute
+2. **Lunch break = 1 practice set** — even 15 minutes of practice questions counts
+3. **Pre-sleep review is non-negotiable** — 10 minutes reviewing cheat sheet before bed
+4. **Don't sacrifice sleep** — sleep deprivation at work + exam prep is a losing strategy
+5. **Batch similar topics** — if you study related topics on consecutive days, retention is better
+6. **Use your phone** — take photos of your cheat sheet, review during any downtime
+
+---
+
 ## Custom Plan Generator
 
 When none of the above templates fit exactly, use this formula:
 
-**Step 1: Calculate available hours**
+### Step 1: Calculate available hours
 - Total days × hours per day (realistic: 3-5 hours for full-time study, 1-2 hours for working people)
+- Example: 10 days × 2 hours/day = 20 total hours
 
-**Step 2: Allocate by phase**
+### Step 2: Allocate by phase
 
 | Phase | % of Time | Activities |
 |-------|----------|------------|
@@ -163,7 +211,7 @@ When none of the above templates fit exactly, use this formula:
 | Practice | 20% | Timed practice exams and error analysis |
 | Final Review | 10% | Cheat sheet review, mental preparation |
 
-**Step 3: Adjust for constraints**
+### Step 3: Adjust for constraints
 
 | Constraint | Adjustment |
 |-----------|------------|
@@ -172,3 +220,17 @@ When none of the above templates fit exactly, use this formula:
 | Essay/subjective format | +10% to Tactics (template-based answers), -5% from Content |
 | Practical/hands-on format | +15% to Practice, -10% from Content |
 | <3 days available | Skip Recon, maximize Practice + Tactics |
+| Working professional (≤2h/day) | Use Minimal Viable Plan template above |
+| Mixed exam types | Allocate Tactics time by question-type proportion |
+
+### Step 4: Generate daily schedule
+
+For each day, output:
+```
+### Day X: [Theme] — [Total Time]
+- [ ] ★ [Must-do task] — [Duration]
+- [ ] [Optional task] — [Duration]
+- 📝 Review: [What to review at end of day]
+```
+
+**★ = Must-do. If you only have time for one thing, do this.**
